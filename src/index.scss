@@ -1,0 +1,98 @@
+//====================================================
+//FONTS
+//====================================================
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./Assets/fonts/eot/iranyekanwebregularfanum.eot");
+  src: url("./Assets/fonts/eot/iranyekanwebregularfanum.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./Assets/fonts/woff/iranyekanwebregularfanum.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./Assets/fonts/ttf/iranyekanwebregularfanum.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./Assets/fonts/eot/iranyekanwebboldfanum.eot");
+  src: url("./Assets/fonts/eot/iranyekanwebboldfanum.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./Assets/fonts/woff/iranyekanwebboldfanum.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./Assets/fonts/ttf/iranyekanwebboldfanum.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./Assets/fonts/eot/iranyekanwebblackfanum.eot");
+  src: url("./Assets/fonts/eot/iranyekanwebblackfanum.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./Assets/fonts/woff/iranyekanwebblackfanum.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./Assets/fonts/ttf/iranyekanwebblackfanum.ttf") format("truetype");
+}
+
+//====================================================
+//GENERAL
+//====================================================
+* {
+  font-family: iranyekan !important;
+  box-sizing: border-box;
+  // border: 1px solid orange;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: #f0f2f2;
+  font-family: iranyekan !important;
+}
+::selection {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: iranyekan !important;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  font-family: IRANYekanRegularRd, sans-serif;
+}
+a,
+button {
+  cursor: pointer;
+}
+a:active {
+}
+a:visited {
+}
+input,
+select,
+button {
+  outline: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
